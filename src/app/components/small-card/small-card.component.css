@@ -1,0 +1,24 @@
+.container__small-card {
+
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+
+.small-card__photo > img {
+  width: 200px;
+  min-width: 200px;
+  margin-right: 20px;
+}
+
+.small-card__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .linha-small-card > hr {
+  margin-bottom: 20px;
+  color: purple;
+ }
