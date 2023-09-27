@@ -1,24 +1,35 @@
 .container__small-card {
 
   width: 500px;
+  margin-bottom: 15px;
   display: flex;
   flex-direction: row;
-  margin-bottom: 15px;
 }
 
 .small-card__photo > img {
-  width: 200px;
-  min-width: 200px;
+  max-width: 200px;
+  min-height: 100px;
   margin-right: 20px;
+
 }
 
 .small-card__title{
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 10px;
 
  }
  .linha-small-card > hr {
   margin-bottom: 20px;
   color: purple;
  }
+
+ .small-card__description {
+  margin-top: 20px;
+
+}
+
+.small-card__description > a > p {
+  color: gray;
+}
