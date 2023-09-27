@@ -10,6 +10,7 @@
   max-width: 200px;
   min-height: 100px;
   margin-right: 20px;
+  border-radius: 50%;
 
 }
 
@@ -21,8 +22,8 @@
 
  }
  .linha-small-card > hr {
-  margin-bottom: 20px;
-  color: purple;
+  margin-bottom: 10px;
+
  }
 
  .small-card__description {
